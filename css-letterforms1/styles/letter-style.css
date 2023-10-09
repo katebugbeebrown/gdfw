@@ -25,13 +25,6 @@
         background-color: darkgreen;
     }
 
-.circle {
-        height: 100px;
-        width: 100px;
-        border-radius: 50%;
-        background-color: blueviolet;
-    }
-
 .dash {
         width: 100px;
         height: 10px;
@@ -45,4 +38,9 @@ body {
 	font-size: 13px;
 	line-height: 15px;
 	font-weight: bold;
+}
+
+.example {
+        position:relative; 
+        left: 200px;
 }
