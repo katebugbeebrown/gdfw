@@ -1,0 +1,32 @@
+
+body{
+    background-color: aliceblue;
+}
+h1 {
+    color:magenta;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:10vw;
+    text-align: left;
+    overflow: auto;
+}
+
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15vw;
+    text-align: left;
+    overflow: auto;
+}
+
+h3{
+    font-family:'Times New Roman', Times, serif;
+    font-size:medium;
+    text-align: left;
+    overflow: auto;
+}
+
+li{
+    font-family:'Times New Roman', Times, serif;
+    font-size:medium;
+    text-align: left;
+    overflow: auto;
+}
