@@ -1,0 +1,88 @@
+
+.headers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+  .row {
+    border: 1px solid black;
+    height: 40vh;
+    display:flex;
+  }
+  .box {
+    width: 16.666%;  
+    background-color: lightgrey;
+    height: 40vh;
+    border: solid 1px lightgrey;
+    animation: animate-color;
+    animation-duration: 10ms;
+    /* animation-iteration-count: infinite; */
+    animation-fill-mode:forwards;
+}
+.box1 {
+  animation-delay: 10s;
+}
+.box2 {
+  animation-delay: 20s;
+  }
+  .box3 {
+    animation-delay: 30s;
+    }
+    .box4 {
+      animation-delay: 40s;
+      }
+      .box5 {
+        animation-delay: 50s;
+        }
+        .box6 {
+          animation-delay: 60s;
+          }
+
+         .box1-.box6 {
+
+          animation-iteration-count: infinite
+         } 
+          .box7 {
+            animation-delay: 610s;
+            }
+            .box8 {
+              animation-delay: 1200s;
+              }
+              .box9 {
+                animation-delay: 1800s;
+                }
+                .box10 {
+                  animation-delay: 2400s;
+                  }
+                  .box11 {
+                    animation-delay: 3000s;
+                    }
+                    .box12 {
+                      animation-delay: 3600s;
+                      }
+@keyframes animate-color {
+
+    0% { background-color: lightgrey ;}
+    /* 80% { background-color: lightgrey ;}
+    86% {background-color: black;} */
+    100% {background-color: black;}
+}
+
+  body {
+    background-color: lightgrey;
+    color: black;
+font-family: helvetica, arial, sans-serif;
+font-size: 13px;
+line-height: 15px;
+font-weight: bold;
+}
+
+.footers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+    /* big thanks to TINA ZHOU for helping me untangle this clock!! */
