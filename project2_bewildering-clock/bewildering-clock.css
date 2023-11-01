@@ -11,6 +11,10 @@
     height: 40vh;
     display:flex;
 }
+
+.row-container {
+  display:flex;
+}
  
 .box {
     width: 16.666%;  
@@ -28,39 +32,39 @@
 .box1 {
   /* animation-delay: 0s; */
   animation: animate-color-1;
-  animation-duration: 60s;
+  animation-duration: 70s;
   animation-iteration-count: infinite;
 }
 
 .box2 {
   /* animation-delay: 1s;   */
   animation: animate-color-2;
-  animation-duration: 60s;
+  animation-duration: 70s;
   animation-iteration-count: infinite;
 }
 
 .box3 {
   /* animation-delay: 2s; */
   animation: animate-color-3;
-  animation-duration: 60s;
+  animation-duration: 70s;
   animation-iteration-count: infinite;
 }
 .box4 {
     /* animation-delay: 3s; */
     animation: animate-color-4;
-    animation-duration: 60s;
+    animation-duration: 70s;
     animation-iteration-count: infinite;
 }
 .box5 {
     /* animation-delay: 4s; */
     animation: animate-color-5;
-    animation-duration: 60s;
+    animation-duration: 70s;
     animation-iteration-count: infinite;
 }
 .box6 {
       /* animation-delay: 5s; */
       animation: animate-color-6;
-      animation-duration: 60s;
+      animation-duration: 70s;
       animation-iteration-count: infinite;
 }
 
@@ -71,42 +75,42 @@
 .box7 {
   /* animation-delay: 610s; */
   animation: animate-color-7;
-  animation-duration: 3600s;
+  animation-duration: 4200s;
   animation-iteration-count: infinite;
 }
 
 .box8 {
   /* animation-delay: 1200s; */
   animation: animate-color-8;
-  animation-duration: 3600s;
+  animation-duration: 4200s;
   animation-iteration-count: infinite;  
 }
 
 .box9 {
   /* animation-delay: 1800s; */
   animation: animate-color-9;
-  animation-duration: 3600s;
+  animation-duration: 4200s;
   animation-iteration-count: infinite;   
 }
 
 .box10 {
   /* animation-delay: 2400s; */
   animation: animate-color-10;
-  animation-duration: 3600s;
+  animation-duration: 4200s;
   animation-iteration-count: infinite;   
 }
 
 .box11 {
   /* animation-delay: 3000s; */
   animation: animate-color-11;
-  animation-duration: 3600s;
+  animation-duration: 4200s;
   animation-iteration-count: infinite;                      
 }
 
 .box12 {
   /* animation-delay: 3600s; */
   animation: animate-color-12;
-  animation-duration: 3600s;
+  animation-duration: 4200s;
   animation-iteration-count: infinite;   
 }
 
@@ -118,7 +122,7 @@
     100% {background-color: black;}
 }
 
-@keyframes animate-color-1 {
+@keyframes animate-color- {
   0% {background-color: black;}/*0s*/
   /* 0.9% {background-color: lightgrey;} */
   1% {background-color: black;}
@@ -127,7 +131,7 @@
   100% {background-color: yellow;}/*60s*/
 }
 
-@keyframes animate-color-2 {
+@keyframes animate-color-1 {
   0% {background-color: lightgray;}/*0s*/
   16.9% {background-color: lightgray;}/*10s*/
   17% {background-color: black;}
@@ -136,7 +140,7 @@
   100% {background-color: yellow;}/*60s*/
 }
 
-@keyframes animate-color-3 {
+@keyframes animate-color-2 {
   0% {background-color: lightgray;}/*0s*/
   32.9% {background-color: lightgray;}/*10s*/
   33% {background-color: black;}
@@ -145,7 +149,7 @@
   100% {background-color: yellow;}/*60s*/
 }
 
-@keyframes animate-color-4 {
+@keyframes animate-color-3 {
   0% {background-color: lightgray;}/*0s*/
   48.9% {background-color: lightgray;}/*10s*/
   49% {background-color: black;}
@@ -154,7 +158,7 @@
   100% {background-color: yellow;}/*60s*/
 }
 
-@keyframes animate-color-5 {
+@keyframes animate-color-4 {
   0% {background-color: lightgray;}/*0s*/
   65.9% {background-color: lightgray;}/*10s*/
   66% {background-color: black;}
@@ -163,7 +167,7 @@
   100% {background-color: yellow;}/*60s*/
 }
 
-@keyframes animate-color-6 {
+@keyframes animate-color-5 {
   0% {background-color: lightgray;}/*0s*/
   82.9% {background-color: lightgray;}/*10s*/
   83% {background-color: black;}
@@ -172,44 +176,67 @@
   100% {background-color: yellow;}/*60s*/
 }
 
+@keyframes animate-color-6 {
+  0% {background-color: lightgray;}/*0s*/
+  92.9% {background-color: lightgray;}/*10s*/
+  93% {background-color: black;}
+  98.99% {background-color:black;}
+  99% {background-color: yellow;}
+  100% {background-color: yellow;}/*60s*/
+}
+
 @keyframes animate-color-7 {
-  0% {background-color: black;}/*0s*/
-  100% {background-color: black;}/*60s*/
+  0% {background-color: lightgray;}/*0s*/
+  16.9% {background-color: lightgray;}/*10s*/
+  17% {background-color: black;}
+  98.99% {background-color:black;}
+  99% {background-color: yellow;}
+  100% {background-color: yellow;}/*60s*/
 }
 
 @keyframes animate-color-8 {
   0% {background-color: lightgray;}/*0s*/
-  16.999999% {background-color: lightgray;}/*10s*/
-  17% {background-color: black;}
-  100% {background-color: black;}/*60s*/
+  32.9% {background-color: lightgray;}/*10s*/
+  33% {background-color: black;}
+  98.99% {background-color:black;}
+  99% {background-color: yellow;}
+  100% {background-color: yellow;}/*60s*/
 }
 
 @keyframes animate-color-9 {
   0% {background-color: lightgray;}/*0s*/
-  32.999999% {background-color: lightgray;}/*10s*/
-  33% {background-color: black;}
-  100% {background-color: black;}/*60s*/
+  48.9% {background-color: lightgray;}/*10s*/
+  49% {background-color: black;}
+  98.99% {background-color:black;}
+  99% {background-color: yellow;}
+  100% {background-color: yellow;}/*60s*/
 }
 
 @keyframes animate-color-10 {
   0% {background-color: lightgray;}/*0s*/
-  48.999999% {background-color: lightgray;}/*10s*/
-  49% {background-color: black;}
-  100% {background-color: black;}/*60s*/
+  65.9% {background-color: lightgray;}/*10s*/
+  66% {background-color: black;}
+  98.99% {background-color:black;}
+  99% {background-color: yellow;}
+  100% {background-color: yellow;}/*60s*/
 }
 
 @keyframes animate-color-11 {
   0% {background-color: lightgray;}/*0s*/
-  65.999999% {background-color: lightgray;}/*10s*/
-  66% {background-color: black;}
-  100% {background-color: black;}/*60s*/
+  82.9% {background-color: lightgray;}/*10s*/
+  83% {background-color: black;}
+  98.99% {background-color:black;}
+  99% {background-color: yellow;}
+  100% {background-color: yellow;}/*60s*/
 }
 
 @keyframes animate-color-12 {
   0% {background-color: lightgray;}/*0s*/
-  82.999999% {background-color: lightgray;}/*10s*/
-  83% {background-color: black;}
-  100% {background-color: black;}/*60s*/
+  92.9% {background-color: lightgray;}/*10s*/
+  93% {background-color: black;}
+  98.99% {background-color:black;}
+  99% {background-color: yellow;}
+  100% {background-color: yellow;}/*60s*/
 }
 
 body {
@@ -227,5 +254,7 @@ body {
   justify-content: space-between;
   flex-shrink: 0;
 }
-
+/* first animation block if accurate and ea is ten and min hr is 60
+0% {background-color: black;}
+100% {background-color: black;} */
     /* big thanks to TINA ZHOU and MINKYOUNG KIM for their critical assistance in telling time!! */
