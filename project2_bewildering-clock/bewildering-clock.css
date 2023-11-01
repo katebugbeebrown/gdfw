@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
 
 .headers {
     display: flex;
@@ -7,9 +13,19 @@
 }
   
 .row {
-    border: 1px solid black;
-    height: 40vh;
+    /* border: 1px solid black; */
+    /* height: 40vh; */
     display:flex;
+    flex-grow: 1;
+    gap: 1px;
+}
+.rows-container {
+  display:flex;
+  flex-direction: column;
+  flex-grow: 1;
+  border: 1px solid black;
+  padding: 1px;
+  gap: 1px;
 }
 
 .row-container {
@@ -17,10 +33,11 @@
 }
  
 .box {
-    width: 16.666%;  
+    /* width: 16.666%;   */
     background-color: lightgrey;
-    height: 40vh;
-    border: solid 1px lightgrey;
+    /* height: 40vh; */
+    /* border: solid 1px lightgrey; */
+    flex-grow: 1;
     /* animation: animate-color; */
    
     /* animation-fill-mode:forwards; */
@@ -257,4 +274,32 @@ body {
 /* first animation block if accurate and ea is ten and min hr is 60
 0% {background-color: black;}
 100% {background-color: black;} */
-    /* big thanks to TINA ZHOU and MINKYOUNG KIM for their critical assistance in telling time!! */
+    /* big thanks to TINA ZHOU and MINKYOUNG KIM and GABRIEL DROZDOV for their critical assistance in telling time!! */
+    
+
+
+.container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.description {
+  display: none;
+  position: absolute;
+  width: 80vw;
+  height: 80vh;
+  background-color: yellow;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  justify-content: center;
+}
+.clock:hover~.description {
+  display: flex;
+}
+.description:hover {
+  display: flex;
+}
