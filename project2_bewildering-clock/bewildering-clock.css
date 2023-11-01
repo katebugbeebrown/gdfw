@@ -5,62 +5,111 @@
     justify-content: space-between;
     flex-shrink: 0;
 }
-  .row {
+  
+.row {
     border: 1px solid black;
     height: 40vh;
     display:flex;
-  }
-  .box {
+}
+ 
+.box {
     width: 16.666%;  
     background-color: lightgrey;
     height: 40vh;
     border: solid 1px lightgrey;
-    animation: animate-color;
-    animation-duration: 10ms;
-    /* animation-iteration-count: infinite; */
-    animation-fill-mode:forwards;
+    /* animation: animate-color; */
+   
+    /* animation-fill-mode:forwards; */
 }
+/* [class^='box'] {
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+} */
 .box1 {
-  animation-delay: 10s;
+  /* animation-delay: 0s; */
+  animation: animate-color-1;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
 }
-.box2 {
-  animation-delay: 20s;
-  }
-  .box3 {
-    animation-delay: 30s;
-    }
-    .box4 {
-      animation-delay: 40s;
-      }
-      .box5 {
-        animation-delay: 50s;
-        }
-        .box6 {
-          animation-delay: 60s;
-          }
 
-         .box1-.box6 {
+.box2 {
+  /* animation-delay: 1s;   */
+  animation: animate-color-2;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+}
+
+.box3 {
+  /* animation-delay: 2s; */
+  animation: animate-color-3;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+}
+.box4 {
+    /* animation-delay: 3s; */
+    animation: animate-color-4;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+}
+.box5 {
+    /* animation-delay: 4s; */
+    animation: animate-color-5;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+}
+.box6 {
+      /* animation-delay: 5s; */
+      animation: animate-color-6;
+      animation-duration: 60s;
+      animation-iteration-count: infinite;
+}
+
+         /* .box1-.box6 {
 
           animation-iteration-count: infinite
-         } 
-          .box7 {
-            animation-delay: 610s;
-            }
-            .box8 {
-              animation-delay: 1200s;
-              }
-              .box9 {
-                animation-delay: 1800s;
-                }
-                .box10 {
-                  animation-delay: 2400s;
-                  }
-                  .box11 {
-                    animation-delay: 3000s;
-                    }
-                    .box12 {
-                      animation-delay: 3600s;
-                      }
+  }  */
+.box7 {
+  /* animation-delay: 610s; */
+  animation: animate-color-7;
+  animation-duration: 3600s;
+  animation-iteration-count: infinite;
+}
+
+.box8 {
+  /* animation-delay: 1200s; */
+  animation: animate-color-8;
+  animation-duration: 3600s;
+  animation-iteration-count: infinite;  
+}
+
+.box9 {
+  /* animation-delay: 1800s; */
+  animation: animate-color-9;
+  animation-duration: 3600s;
+  animation-iteration-count: infinite;   
+}
+
+.box10 {
+  /* animation-delay: 2400s; */
+  animation: animate-color-10;
+  animation-duration: 3600s;
+  animation-iteration-count: infinite;   
+}
+
+.box11 {
+  /* animation-delay: 3000s; */
+  animation: animate-color-11;
+  animation-duration: 3600s;
+  animation-iteration-count: infinite;                      
+}
+
+.box12 {
+  /* animation-delay: 3600s; */
+  animation: animate-color-12;
+  animation-duration: 3600s;
+  animation-iteration-count: infinite;   
+}
+
 @keyframes animate-color {
 
     0% { background-color: lightgrey ;}
@@ -69,20 +118,114 @@
     100% {background-color: black;}
 }
 
-  body {
-    background-color: lightgrey;
-    color: black;
-font-family: helvetica, arial, sans-serif;
-font-size: 13px;
-line-height: 15px;
-font-weight: bold;
+@keyframes animate-color-1 {
+  0% {background-color: black;}/*0s*/
+  /* 0.9% {background-color: lightgrey;} */
+  1% {background-color: black;}
+  98.99% {background-color:black;}
+  99% {background-color: yellow;}
+  100% {background-color: yellow;}/*60s*/
+}
+
+@keyframes animate-color-2 {
+  0% {background-color: lightgray;}/*0s*/
+  16.9% {background-color: lightgray;}/*10s*/
+  17% {background-color: black;}
+  98.99% {background-color:black;}
+  99% {background-color: yellow;}
+  100% {background-color: yellow;}/*60s*/
+}
+
+@keyframes animate-color-3 {
+  0% {background-color: lightgray;}/*0s*/
+  32.9% {background-color: lightgray;}/*10s*/
+  33% {background-color: black;}
+  98.99% {background-color:black;}
+  99% {background-color: yellow;}
+  100% {background-color: yellow;}/*60s*/
+}
+
+@keyframes animate-color-4 {
+  0% {background-color: lightgray;}/*0s*/
+  48.9% {background-color: lightgray;}/*10s*/
+  49% {background-color: black;}
+  98.99% {background-color:black;}
+  99% {background-color: yellow;}
+  100% {background-color: yellow;}/*60s*/
+}
+
+@keyframes animate-color-5 {
+  0% {background-color: lightgray;}/*0s*/
+  65.9% {background-color: lightgray;}/*10s*/
+  66% {background-color: black;}
+  98.99% {background-color:black;}
+  99% {background-color: yellow;}
+  100% {background-color: yellow;}/*60s*/
+}
+
+@keyframes animate-color-6 {
+  0% {background-color: lightgray;}/*0s*/
+  82.9% {background-color: lightgray;}/*10s*/
+  83% {background-color: black;}
+  98.99% {background-color:black;}
+  99% {background-color: yellow;}
+  100% {background-color: yellow;}/*60s*/
+}
+
+@keyframes animate-color-7 {
+  0% {background-color: black;}/*0s*/
+  100% {background-color: black;}/*60s*/
+}
+
+@keyframes animate-color-8 {
+  0% {background-color: lightgray;}/*0s*/
+  16.999999% {background-color: lightgray;}/*10s*/
+  17% {background-color: black;}
+  100% {background-color: black;}/*60s*/
+}
+
+@keyframes animate-color-9 {
+  0% {background-color: lightgray;}/*0s*/
+  32.999999% {background-color: lightgray;}/*10s*/
+  33% {background-color: black;}
+  100% {background-color: black;}/*60s*/
+}
+
+@keyframes animate-color-10 {
+  0% {background-color: lightgray;}/*0s*/
+  48.999999% {background-color: lightgray;}/*10s*/
+  49% {background-color: black;}
+  100% {background-color: black;}/*60s*/
+}
+
+@keyframes animate-color-11 {
+  0% {background-color: lightgray;}/*0s*/
+  65.999999% {background-color: lightgray;}/*10s*/
+  66% {background-color: black;}
+  100% {background-color: black;}/*60s*/
+}
+
+@keyframes animate-color-12 {
+  0% {background-color: lightgray;}/*0s*/
+  82.999999% {background-color: lightgray;}/*10s*/
+  83% {background-color: black;}
+  100% {background-color: black;}/*60s*/
+}
+
+body {
+  background-color: lightgrey;
+  color: black;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: bold;
 }
 
 .footers {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-shrink: 0;
 }
 
-    /* big thanks to TINA ZHOU for helping me untangle this clock!! */
+    /* big thanks to TINA ZHOU and MINKYOUNG KIM for their critical assistance in telling time!! */
