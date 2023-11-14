@@ -17,7 +17,7 @@ function setup() {
   // input.position(windowWidth / 4, windowHeight / 15); // Adjusted position to stack
   // input.size(windowWidth / 2, windowHeight / 20);
   // Create a submit button
-  button = createButton('Type a noun or noun phrase');
+  button = createButton('This or that?');
   button.addClass('button-1');
   // button.position(windowWidth / 4, windowHeight / 7); // Adjusted position to stack
   // button.size(windowWidth / 2, windowHeight / 20);
