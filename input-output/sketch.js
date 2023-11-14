@@ -30,7 +30,7 @@ function draw() {
   textAlign(LEFT, CENTER);
   textFont(font);
   fill(txtcolor);
-  text('WHICH ONE (type a noun or noun phrase):', 50, windowHeight/15);
+  text('WHICH ONE__type a noun or noun phrase__:', 50, windowHeight/15);
   // Display the result
   push();
   textSize(windowWidth / 4); // Adjusted result text size
