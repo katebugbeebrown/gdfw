@@ -13,14 +13,12 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   // Create an input field
   input = createInput();
-  input.addClass('input-1');
-  // input.position(windowWidth / 4, windowHeight / 15); // Adjusted position to stack
-  // input.size(windowWidth / 2, windowHeight / 20);
+  input.position(windowWidth / 4, windowHeight / 15); // Adjusted position to stack
+  input.size(windowWidth / 2, windowHeight / 20);
   // Create a submit button
-  button = createButton('Type a noun or noun phrase');
-  button.addClass('button-1');
-  // button.position(windowWidth / 4, windowHeight / 7); // Adjusted position to stack
-  // button.size(windowWidth / 2, windowHeight / 20);
+  button = createButton('THIS ONE');
+  button.position(windowWidth / 4, windowHeight / 7); // Adjusted position to stack
+  button.size(windowWidth / 2, windowHeight / 20);
   button.mousePressed(processInput);
   // Load font
   font = loadFont('fonts/grotBook.otf');
@@ -32,7 +30,7 @@ function draw() {
   textAlign(LEFT, CENTER);
   textFont(font);
   fill(txtcolor);
-  // text('WHICH ONE? Type a noun or noun phrase:', 50, windowHeight/15);
+  text('WHICH ONE? Type a noun or noun phrase:', 50, windowHeight/15);
   // Display the result
   push();
   textSize(windowWidth / 4); // Adjusted result text size
@@ -64,8 +62,4 @@ function determineScreenSize() {
 }
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
-  // input.position(windowWidth / 4, windowHeight / 15); // Adjusted position to stack
-  // input.size(windowWidth / 2, windowHeight / 20);
-  // button.position(windowWidth / 4, windowHeight / 7); // Adjusted position to stack
-  // button.size(windowWidth / 2, windowHeight / 20);
 }
