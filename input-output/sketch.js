@@ -35,7 +35,7 @@ function draw() {
   // text('WHICH ONE? Type a noun or noun phrase:', 50, windowHeight/15);
   // Display the result
   push();
-  textSize(windowWidth / 4); // Adjusted result text size
+  textSize(windowWidth * 0.375); // Adjusted result text size
   textAlign(CENTER, CENTER);
   fill(txtcolor);
   text(result, windowWidth / 2, windowHeight / 2);
@@ -44,13 +44,14 @@ function draw() {
 function processInput() {
   userInput = select('input').value();
   if (userInput.length >= 8) {
-    result = 'THIS';
+    result = 'THAT';
     bgcolor = 0;
     txtcolor = 255;
   } else {
-    result = 'THAT';
+    result = 'THIS';
     bgcolor = 255;
     txtcolor = 0;
+  // call the text field and add class; remove styling on button
   }
 }
 function determineScreenSize() {
