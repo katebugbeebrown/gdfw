@@ -6,3 +6,58 @@ html, body {
 canvas {
   display: block;
 }
+
+/* body {
+  background-color: lightgrey;
+  color: black;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: bold;
+}
+
+.description {
+  display: none;
+  position: absolute;
+  width: 10vw;
+  height: 80vh;
+  background-color: magenta;
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  /* align-items: left;
+  justify-content: left;
+  font-face: helvetica;
+  font-size: 13px;
+} */
+/* .prompt:hover~.description {
+  display: flex;
+}
+.description:hover {
+  display: flex;
+} */ 
+
+
+.info {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+.info-icon {
+  border: 1px solid black;
+}
+.info-content {
+  display: none;
+  position: absolute;
+  bottom: calc(100% + 10px);
+  width: calc(100vw - 20px);
+  height: 80vh;
+  left: 0;
+  border: 1px solid black;
+  align-items: center;
+  background-color: yellow;
+  justify-content: center;
+}
+.info:hover .info-content {
+  display: flex;
+}
