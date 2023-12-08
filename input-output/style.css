@@ -44,7 +44,7 @@ canvas {
   left: 10px;
 }
 .info-icon {
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .info-content {
   display: none;
@@ -53,10 +53,14 @@ canvas {
   width: calc(100vw - 20px);
   height: 80vh;
   left: 0;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   align-items: center;
   background-color: yellow;
   justify-content: center;
+  font: helvetica, arial, sans-serif;
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: bold;
 }
 .info:hover .info-content {
   display: flex;
