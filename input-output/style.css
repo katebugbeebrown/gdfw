@@ -64,7 +64,7 @@ canvas {
 }
 p {
   font: helvetica, arial, sans-serif;
-  font-size: medium;
+  font-size: 13px;
   line-height: 15px;
   font-weight: bold;
 }
