@@ -57,14 +57,14 @@ canvas {
   align-items: center;
   background-color: yellow;
   justify-content: center;
-  /* font: helvetica, arial, sans-serif;
+  font: helvetica, arial, sans-serif;
   font-size: 13px;
   line-height: 15px;
-  font-weight: bold; */
+  font-weight: bold;
 }
 p {
-  font: 'Bureau', helvetica, arial, sans-serif;
-  font-size: 13px;
+  font: helvetica, arial, sans-serif;
+  font-size: medium;
   line-height: 15px;
   font-weight: bold;
 }
